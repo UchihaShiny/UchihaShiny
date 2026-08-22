@@ -54,3 +54,49 @@ fn main() {
 
     println!("{} @ {} is compiling the future...", shiny.handle, shiny.university);
 }
+
+
+
+<div align="center">
+
+<!-- ===== HEADER BANNER ===== -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,3,30&height=3" />
+
+<!-- ===== TYPING INTRO ===== -->
+<a href="https://github.com/UchihaShiny">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=800&color=A855F7&center=true&vCenter=true&width=940&lines=Systems+Programmer;Forged+in+Rust;Zero-cost+Abstractions;Fearless+Concurrency;Memory-safe+Software&repeat=true" alt="Typing SVG" />
+</a>
+
+<br/><br/>
+
+<!-- ===== PROFILE / SOCIAL BADGES ===== -->
+<img src="https://komarev.com/ghpvc/?username=UchihaShiny&label=Profile%20Views&color=143c&style=for-the-badge" alt="views" />
+<img src="https://img.shields.io/github/followers/UchihaShiny?label=Followers&style=for-the-badge&color=8b5cf6&labelColor=1c1b4b" alt="followers" />
+<img src="https://img.shields.io/badge/Rust-1E293B%20%E2%86%92%20Forever-DC143C?style=for-the-badge&labelColor=1c1b4b" alt="ruster" />
+
+</div>
+
+---
+
+## 🥷 whoami
+
+```rust
+struct Developer {
+    handle:    &'static str,
+    university: &'static str,
+    stack:     Vec<&'static str>,
+    obsession: &'static str,
+    status:    Status,
+}
+
+fn main() {
+    let shiny = Developer {
+        handle:    "UchihaShiny",
+        university: "HUST 💜 (Hanoi University of Science & Technology)",
+        stack:     vec!["C", "C++", "Rust", "DevOps", "AI/ML"],
+        obsession: "Squeezing every nanosecond out of the machine ⚡",
+        status:    Status::Hustling, // 24/7 ~)))
+    };
+
+    println!("{} # {} is compiling the future...", shiny.handle, shiny.university);
+}
